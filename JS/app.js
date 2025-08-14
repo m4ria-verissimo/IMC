@@ -1,7 +1,15 @@
-/*var peso = Number(49);
-var alt = Number(1.60);
+function cal(){
 
-var imc =  alt * alt; 
-var mci = peso / imc;
 
-alert(mci);*/ 
+    var peso =Number( document.getElementById("peso").value);
+    var altura =Number(document.getElementById("altura").value);
+    
+     if((peso)=="" || (altura) ==""){
+        alert("Preencha os campos vazios..");
+    }else{
+     
+    var resul = peso/(altura*altura);
+    var imc= resul.toFixed(2);
+     document.getElementById("resul").innerHTML="Resultado: " + imc;
+    }
+} 

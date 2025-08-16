@@ -3,7 +3,7 @@
 body{
     padding: 0;
     margin: 0;
-    height: 130vh;
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -17,7 +17,8 @@ body{
     border: 1px solid;
     display:flex;
     justify-content: center;
-    padding:2%
+    padding:2%;
+    margin-top:-10% ;
 }
 header{
     color:#6cb1f7;
